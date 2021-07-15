@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calileo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="trainning_level">Trainning Levels</string>
+    <string name="programs">Programs</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/android_nav_flow"
+    app:startDestination="@id/trainingLevelFragment">
+    <fragment
+        android:id="@+id/trainingLevelFragment"
+        android:name="com.hank.calileo.ui.TrainingLevelFragment"
+        android:label="fragment_training_level"
+        tools:layout="@layout/fragment_training_level" >
+        <action
+            android:id="@+id/navigate_trainingLevelFragment_to_programFragment"
+            app:destination="@id/programFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/programFragment"
+        android:name="com.hank.calileo.ui.ProgramFragment"
+        android:label="fragment_program"
+        tools:layout="@layout/fragment_program" >
+        <action
+            android:id="@+id/navigate_programFragment_to_trainingLevelFragment"
+            app:destination="@id/trainingLevelFragment" />
+    </fragment>
+</navigation>
