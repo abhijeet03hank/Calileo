@@ -9,6 +9,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/level_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@id/guideline3"
@@ -29,12 +30,14 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton"
+        android:id="@+id/addLevelsButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/white"
         android:src="@drawable/ic_baseline_add_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

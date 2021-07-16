@@ -3,5 +3,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="trainning_level">Trainning Levels</string>
     <string name="programs">Programs</string>
+    <string name="level_name">Level Name</string>
+    <string name="total_programs">Total Programs</string>
+    <string name="completed_programs">Completed Programs</string>
 
 </resources>
